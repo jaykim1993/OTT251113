@@ -1,0 +1,380 @@
+.main-container{
+    width: 100%;
+    padding-bottom: 150px;
+    overflow: hidden;
+    color: #fff;
+    background-color: #131313;
+}
+.main-container .banner{
+    position: relative;
+}
+.main-container .bg-color{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 600px;
+    background: -moz-linear-gradient(to bottom, #131313 0%, transparent 50%, #131313 100%);
+    background: -webkit-linear-gradient(to bottom, #131313 0%, transparent 50%, #131313 100%);
+    background: -o-linear-gradient(to bottom, #131313 0%, transparent 50%, #131313 100%);
+    background: -ms-linear-gradient(to bottom, #131313 0%, transparent 50%, #131313 100%);
+    background: linear-gradient(to bottom, #131313 0%, transparent 50%, #131313 100%);
+}
+.main-container .info-wrap2{
+    position: absolute;
+    left: 6%;
+    bottom: 125px;
+    z-index: 1;
+}
+.main-container .info-wrap2 h2{
+    font-size: 40px;
+    margin: 0;
+    text-shadow: 0px 0px 5px #252525;
+}
+.main-container .info-wrap2 p{
+    width: 540px;
+    font-size: 16px;
+    overflow-y: hidden;
+    text-shadow: 0px 0px 5px #252525;
+}
+.main-container .info-wrap2 button{
+    border-radius: 5px;
+    line-height: 38px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    margin-top: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 3px 22px;
+}
+.main-container .info-wrap2 .play{
+    background-color: #e50914;
+    color: #FFF;
+    margin-right: 10px;
+}
+.main-container .info-wrap2 button:hover{
+    opacity: 0.9;
+}
+.main-container .info-wrap2 .info{
+    background-color: #fff;
+    color: #000;
+}
+
+.main-container .banner-wrap{
+    position: relative;
+}
+.main-container .main-banner{
+    height: 600px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 500%;
+}
+.main-container .main-banner .info-wrap{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.category .btns{
+    position: relative;
+    color: #fff;
+    line-height: 50px;
+    font-size: 14px;
+    padding: 0 10px;
+    margin-top: 60px;
+    overflow: hidden;
+    padding: 0 50px;
+}
+.category .btns .btns-left{
+    float: left;
+}
+.category .btns form{
+    float: right;
+}
+.category .btns button{
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    padding: 0 0 0 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    width: 90px;
+}
+.category .btns button .check{
+    color: #e50914;
+    width: 22px;
+    display: inline-block;
+}
+.category .btns button:first-child{
+    padding-left: 0;
+}
+.category .btns button:hover{
+    border: 0;
+}
+.category .btns select{
+    cursor: pointer;
+    width: 150px;
+    padding: 10px 40px 10px 15px;;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: #222;
+    color: white;
+    transition: all 0.3s ease;
+    margin-right: 15px;
+     appearance: none;           /* 기본 화살표 제거 */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><path fill='white' d='M0 0l5 6 5-6z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px) center;
+    background-size: 12px;
+}
+.category .btns select:focus{
+    background-color: #333;
+    box-shadow: 0 0 10px #e50914;
+}
+.category .btns .btns-left label{
+    padding: 0 10px 0 0;
+    font-size: 17px;
+}
+.category .btns #country{
+    margin-right: 15px;
+}
+.category .btns form input{
+    width: 250px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: #222;
+    color: white;
+    transition: all 0.3s ease;
+    margin-right: 15px;
+}
+.category .btns form input:focus{
+    background-color: #333;
+    box-shadow: 0 0 10px #e50914;
+}
+.category .btns form button{
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 8px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.category .btns form button:hover{
+    background-color: #e50914;
+    border: 1px solid #e50914;
+}
+
+
+.content-wrap{
+    padding: 0 50px;
+    position: relative;
+}
+.content-wrap h4{
+    font-size: 29px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 10px 280px 13px 20px;
+    border-left: 5px solid #e50914;
+    background: linear-gradient(to right, #e50914 0%, transparent 80%);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.content-wrap ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 0.3%;    
+}
+.content-wrap ul li{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 13%;
+    margin-top: 1.2%;
+    margin-left: 0.9%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.content-wrap ul li:hover{
+    box-shadow: 0 0 25px rgba(229,9,20,0.6);
+    transform: scale(1.08);
+}
+.content-wrap ul li .popNum{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 900;
+    font-style: italic;
+    position: relative;
+    z-index: 9;
+    line-height: 0.7;
+    text-shadow: 5px 5px 5px #252525;
+}
+.content-wrap ul li img{
+    width: 100%;
+    height: 100%;
+}
+.content-wrap ul li img.popimg{
+    border-radius: 8px;
+    display: block;
+    margin-top:-45px   
+}
+.content-wrap .movieNum{
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+.content-wrap .more-wrap{
+    text-align: center;
+    padding-top: 150px;
+    margin-top: -150px;
+    background: linear-gradient(#00000000 0%, #131313d6 50%);
+    position: relative;
+    z-index: 1;
+}
+.content-wrap .more-wrap button{
+    padding: 10px 53px 11px;
+    font-size: 18px;
+    background-color: #e50914;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid #e50914;
+    font-weight: 500;
+    margin-top: 50px;
+    outline: 0;
+    cursor: pointer;
+}
+.content-wrap .more-wrap button:hover{
+    border: 1px solid #fff;
+    background-color: #131313;
+}
+
+
+
+
+/* 화살표 */
+.left-arrow:before{
+    content: "\276E";
+}
+.right-arrow:before{
+    content: "\276F";
+}
+.left-arrow{
+    left: 11px;
+}
+.right-arrow{
+    right: 11px;
+}
+.left-arrow,
+.right-arrow{
+    position: absolute;
+    cursor: pointer;
+    font-size: 55px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-shadow: 5px 5px 5px #252525;
+    z-index: 1;
+}
+.left-arrow:hover,
+.right-arrow:hover{
+    opacity: 0.8;
+}
+
+.adultOverlayWrap{
+  text-decoration: none;
+  cursor: pointer; 
+  position: relative;
+  display: inline-block;
+}
+.adultOverlay{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   z-index: 5;
+   border-radius: 4px;
+}
+.mark19{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    z-index: 10;
+}
+
+
+
+
+
+.main-contents .content-wrap ul li .black{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000000d6;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-contents .content-wrap ul li .black p{
+    margin: 0;
+    font-size: 16px;
+    line-height: normal;
+}
+.main-contents .content-wrap ul li .black button{
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    border-bottom: 1px solid #353535;
+    outline: 0;
+}
+.main-contents .content-wrap ul li .black button,
+.main-contents .content-wrap ul li .black a{
+    background-color: #00000028;
+    text-decoration: none;
+    font-style: none;
+    color: #fff;
+    display: block;
+}
+
+.main-contents .content-wrap ul li:hover{
+    box-shadow: 0 0 25px rgba(229, 9, 20, 0.6);
+    transform: scale(1.08);
+}
+.main-contents .content-wrap ul li:hover .black{
+    opacity: 1;
+}
+.main-contents .content-wrap ul li:hover .black i{
+    font-size: 30px;
+}
